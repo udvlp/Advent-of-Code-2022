@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             const int len = 14;
-            var sr = new StreamReader(@"..\..\..\input.txt");
+            var sr = new StreamReader(@"..\..\input.txt");
             string line = sr.ReadLine();
             for (int i = len - 1; i < line.Length; i++)
             {

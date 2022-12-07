@@ -16,7 +16,7 @@
                 { "C Y", 2 + 0 },
                 { "C Z", 3 + 3 }
             };
-            var sr = new StreamReader(@"..\..\..\input.txt");
+            var sr = new StreamReader(@"..\..\input.txt");
             int sum = 0;
             while (!sr.EndOfStream)
             {

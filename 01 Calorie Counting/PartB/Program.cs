@@ -7,7 +7,7 @@ namespace AoC
     {
         static void Main(string[] args)
         {
-            var sr = new StreamReader(@"..\..\..\input.txt");
+            var sr = new StreamReader(@"..\..\input.txt");
             int sum = 0;
             List<int> cal = new List<int>();
             while (!sr.EndOfStream)

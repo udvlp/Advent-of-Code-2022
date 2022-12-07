@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var reader = new StreamReader(@"..\..\..\input.txt");
+            var reader = new StreamReader(@"..\..\input.txt");
 
             List<string> lines = new();
 
