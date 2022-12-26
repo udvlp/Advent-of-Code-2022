@@ -1,0 +1,15 @@
+﻿<Window x:Class="AoC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AoC"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight" Closed="Window_Closed" MinWidth="1000" MinHeight="600" >
+    <Grid x:Name="grid" Background="#303030" SizeChanged="grid_SizeChanged" >
+        <Image x:Name="image" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="100" />
+        <Button Content="Part 1" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Click="Button1_Click" Width="60" Height="25" />
+        <Button Content="Part 2" HorizontalAlignment="Left" Margin="75,0,0,10" VerticalAlignment="Bottom" Click="Button2_Click" Width="60" Height="25" />
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="140,0,0,10" VerticalAlignment="Bottom" Click="Button3_Click" Width="60" Height="25" />
+    </Grid>
+</Window>
